@@ -180,4 +180,5 @@ def menu():
             print("EXITING")
         ans = input("WANT TO CONTINUE?")
 
-menu()
+if __name__ == "__main__":
+    menu()
